@@ -1,0 +1,32 @@
+{
+  "name": "karma-eslint-template",
+  "version": "1.0.0",
+  "eslintConfig": {
+      "env": {
+          "browser": true,
+          "node": true
+      }
+  },
+  "description": "template project for ESLint and karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "waspswarm@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "jasmine": "^2.6.0",
+    "jasmine-core": "^2.6.1",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.3",
+    "phantomjs-prebuilt": "^2.1.14",
+    "webpack": "^2.5.1"
+  }
+}
